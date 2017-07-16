@@ -3,9 +3,12 @@
   font-family: Helvetica, sans-serif;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 70px;
-  font-weight: bold;
   color: white;
 }
 .navheader {
@@ -19,5 +22,26 @@ h1 {
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
+}
+h3 {
+  font-size: 23px
+}
+
+div p {
+  font-size: 14px;
+}
+
+.designedny h2 {
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
+}
+
+.copyright {
+  font-size: 11px;
+  color: white;
+}
+
+.navfooter p {
+  text-align: left;
+  background-color: gray;
 }
